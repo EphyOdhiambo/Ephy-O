@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        .form {
+            background-color: #fff;
+            display: block;
+            padding: 1rem;
+            max-width: 450px;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .form-title {
+            font-size:1.25rem;
+            line-height: 1.75rem;
+            font-weight: 600;
+            text-align: center;
+            color: #000;
+        }
+
+        .input-container {
+            position: relative;
+        }
+
+        .input-container input,
+        .form button {
+            outline: none;
+            border: 1px solid #e5e7eb;
+            margin: 8px 0;
+        }
+
+        .input-container input {
+            background-color: #fff;
+            padding: 1rem;
+            padding-right: 0.8rem;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            width: 100%; /* Adjusted for full width */
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+
+        .submit {
+            display: block;
+            padding: 0.75rem 1.25rem;
+            background-color: blue;
+            color: #ffffff;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 500;
+            width: 100%;
+            border-radius: 0.5rem;
+            text-transform: uppercase;
+            border: none; 
+            cursor: pointer; 
+        }
+
+        .signup-link {
+            color: #6B7280;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            text-align: center;
+        }
+
+        .signup-link a {
+            text-decoration: underline;
+        }
+
+       header
+         {
+          margin:0px;
+          height:1em;
+         }
+
+         header > nav > a 
+         {
+          
+          margin-right:2em;
+          font-size:1em;
+          color:blue;
+          font-style:calibri;
+         }
+
+          #navigator 
+          {
+           background-color:black;
+           padding:2em 3em;
+    </style>
+</head>
+<body>
+
+      <header>
+            <nav id="navigator" style="margin:0px;" >
+            <a href="domain name.html">HOME</a>
+            <a href="login.html">LOGIN</a>
+            <a href="product section.html">MENU</a>
+            <a href="About Us.html">ABOUT US</a>
+            <a href="Contact Us.html">FEEDBACK</a>
+            </nav>
+        </header>
+<section id="intro" style="background-image:url('pics/eggs.jpg');background-size:contain; margin:0px; height:600px;">
+           <h1 style="font-style:helvetica; text-align:center; font-size: 5em; font-weight:bold; color:blue;">ELITE BISTRO FLAVOR</h1>
+         
+    <div class="form">
+        <h2 class="form-title">Sign Up</h2>
+        <div class="input-container">
+            <input type="text" placeholder="Username" required>
+        </div>
+        <div class="input-container">
+            <input type="email" placeholder="Email" required>
+        </div>
+        <div class="input-container">
+            <input type="password" placeholder="Password" required>
+        </div>
+        <button class="submit">Submit</button>
+        <p class="signup-link">Already have an account? <a href="#">Log in</a></p>
+    </div>
+</section>
+</body>
+</html>
